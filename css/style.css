@@ -196,3 +196,39 @@ header-logo img {
   color: var(--accent);
   background-color: #fff;
 }
+
+.code {
+  padding: 40px;
+  text-align: center;
+
+}
+
+.code-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  padding-top: 60px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.code p {
+  padding: 15px 0 20px;
+}
+
+.code pre {
+  font-style: italic;
+}
+
+.code b {
+  font-style: normal;
+}
+
+.code pre {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent-light);
+  color: #fff;
+  border-radius: 10px;
+}
