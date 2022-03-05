@@ -264,3 +264,27 @@ header-logo img {
   color: #fff;
   background-color: var(--accent-light);
 }
+.education {
+  background-color: var(--accent);
+  color: #fff;
+  padding: 30px;
+  margin: 0;
+}
+.education-title {
+  font-size: 1.5em;
+   text-transform: uppercase;
+    text-align: center;
+}
+.education-menu {
+  list-style-image: linear-gradient(#ffffff 20%, #0f3bb3 50%);
+  padding: 0 80px;
+}
+.education-item {
+  padding: 10px 25px;
+    background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.education li:hover {
+  color:  rgb(187, 104, 141);;
+  list-style-image: linear-gradient(#3764a7 20%, #da9eb2 50%);
+}
