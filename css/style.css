@@ -160,3 +160,39 @@ header-logo img {
 .contact-menu-link:hover {
   color: rgb(189, 88, 133);
 }
+
+
+.skill {
+  padding: 40px 0;
+  color: var(--pure-light);
+  background-color: var(--accent);
+}
+
+
+.skill-title {
+  font-size: 1.4em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.skill-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skill-item{
+  padding: 10px 25px;
+  color: #fff;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.skill-item:hover {
+  color: var(--accent);
+  background-color: #fff;
+}
