@@ -76,3 +76,44 @@ header-logo img {
 .header-menu-link:hover {
   background-color: var(--accent-light);
 }
+.intro {
+  padding: 50px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.intro-image{
+  width: 27%;
+  }
+
+.intro-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+ }
+
+ .intro-text {
+  width: 600px;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+
+.intro-text h1 {
+  font-size: 1.5em;
+  color: var(--accent-light);
+  text-transform: uppercase;
+}
+
+.intro-text h3 {
+  font-size: 1.2em;
+  color: var(--accent-light);
+}
+.intro-text p {
+  color: rgb(34, 33, 33);
+}
