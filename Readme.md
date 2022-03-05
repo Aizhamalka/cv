@@ -1,2 +1,2 @@
 # Deployed link
-https://aizhamalka.github.io/cv/git
+https://aizhamalka.github.io/cv/
