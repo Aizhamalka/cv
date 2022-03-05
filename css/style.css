@@ -117,3 +117,46 @@ header-logo img {
 .intro-text p {
   color: rgb(34, 33, 33);
 }
+
+.contact-inner {
+  margin: 20px 0;
+  padding: 10px;
+ 
+  }
+
+.contact-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  text-align: center;
+  text-transform: uppercase;
+ }
+ .contact-menu-title {
+  color: var(--accent-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+ .contact-menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contact-menu-item {
+  list-style: none;
+  color: var(--accent);
+  text-align: center;
+}
+
+.contact-menu-link {
+  color: var(--accent-light);
+  list-style: none;
+  text-align: center;
+}
+
+.contact-menu-text:hover {
+  color: rgb(187, 104, 141);
+}
+
+.contact-menu-link:hover {
+  color: rgb(189, 88, 133);
+}
