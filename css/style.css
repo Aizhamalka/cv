@@ -160,3 +160,75 @@ header-logo img {
 .contact-menu-link:hover {
   color: rgb(189, 88, 133);
 }
+
+
+.skill {
+  padding: 40px 0;
+  color: var(--pure-light);
+  background-color: var(--accent);
+}
+
+
+.skill-title {
+  font-size: 1.4em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.skill-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skill-item{
+  padding: 10px 25px;
+  color: #fff;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.skill-item:hover {
+  color: var(--accent);
+  background-color: #fff;
+}
+
+.code {
+  padding: 40px;
+  text-align: center;
+
+}
+
+.code-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  padding-top: 60px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.code p {
+  padding: 15px 0 20px;
+}
+
+.code pre {
+  font-style: italic;
+}
+
+.code b {
+  font-style: normal;
+}
+
+.code pre {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent-light);
+  color: #fff;
+  border-radius: 10px;
+}
