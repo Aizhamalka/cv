@@ -285,6 +285,59 @@ header-logo img {
   border-radius: 4px;
 }
 .education li:hover {
-  color:  rgb(187, 104, 141);;
-  list-style-image: linear-gradient(#3764a7 20%, #da9eb2 50%);
+  color:  rgb(20, 17, 18);;
+  list-style-image: linear-gradient(#3764a7 20%, #080707 50%);
+}
+.language {
+  padding: 30px;
+
+}
+.language-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.language-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.language-item {
+  padding: 10px 25px;
+  color: var(--accent);
+   border-radius: 4px;
+}
+.language-item:hover {
+  color: var(--pure-white);
+  background-color: var(--accent-light)
+}
+.footer {
+  background-color: var(--accent);
+  color: #fff;
+  padding: 30px;
+  margin: 0;
+}
+
+.footer p {
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer a {
+  list-style: none;
+  color: #fff;
+  padding-left: 5px;
+  text-decoration: none;
+  
+}
+.footer a:hover {
+  color: var(--accent-light);
+  background-color: var(--accent)
 }
